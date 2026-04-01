@@ -19,8 +19,6 @@ import ProtectedRoute from './components/admin/ProtectedRoute'
 const appRouter = createBrowserRouter([
 
   // for student role
-
-
   {
     path: '/',
     element: <Home />
@@ -49,8 +47,6 @@ const appRouter = createBrowserRouter([
     path: "/profile",
     element: <Profile />
   },
-
-
   // for admin role
   {
     path: "/admin/companies",
@@ -82,8 +78,6 @@ const appRouter = createBrowserRouter([
 ])
 
 function App() {
-
-
   return (
     <>
       <RouterProvider router={appRouter} />
